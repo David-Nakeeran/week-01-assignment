@@ -111,8 +111,7 @@ img {
   text-transform: uppercase;
 }
 
-.read-more,
-.audio-btn:hover {
+.read-more:hover {
   background-color: #ffffff;
   color: #000000;
 }
@@ -124,6 +123,11 @@ img {
   border: 1px solid #ffffff;
   width: 5rem;
   border-radius: 3px;
+}
+
+.audio-btn:hover {
+  background-color: #ffffff;
+  color: #000000;
 }
 
 /* footer */
