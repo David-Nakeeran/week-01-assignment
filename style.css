@@ -27,7 +27,7 @@ nav {
   gap: 3em;
 }
 
-/* Typygraphy */
+/* Typography */
 h1,
 h2,
 a,
@@ -73,4 +73,29 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100dvh;
+}
+
+/* Buttons */
+.read-more {
+  opacity: 100%;
+  text-align: left;
+  background: none;
+  border: 1px solid #ffffff;
+  border-radius: 6px;
+  padding: 1.5em;
+  font-weight: bold;
+  width: 17rem;
+}
+
+.read-more:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: #0b0b0b;
+  color: #585757;
+  padding: 2em;
 }
