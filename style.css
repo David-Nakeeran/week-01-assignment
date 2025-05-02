@@ -57,6 +57,12 @@ h1 {
   left: 5em;
 }
 
+.img-container {
+  width: 20px;
+  display: flex;
+  gap: 2em;
+}
+
 /* Images */
 .bg-img-galaxy {
   background-image: url("./assets/galaxy-5803c9f1.jpg");
@@ -89,6 +95,7 @@ h1 {
   padding: 1.5em;
   font-weight: bold;
   width: 17rem;
+  cursor: pointer;
 }
 
 .read-more:hover {
@@ -98,8 +105,11 @@ h1 {
 
 /* footer */
 footer {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #0b0b0b;
   color: #585757;
   padding: 2em;
+  gap: 2em;
 }
