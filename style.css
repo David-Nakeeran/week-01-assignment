@@ -3,3 +3,74 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Gill Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  gap: 5em;
+  position: fixed;
+  z-index: 1;
+  padding: 2.5em;
+  margin-left: 2.5em;
+}
+
+.logo {
+  text-transform: uppercase;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+/* Typygraphy */
+h1,
+h2,
+a,
+button {
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+.container {
+  position: relative;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  position: absolute;
+  bottom: 15em;
+  left: 5em;
+}
+
+/* Images */
+.bg-img-galaxy {
+  background-image: url("./assets/galaxy-5803c9f1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+}
+
+.bg-img-landscape {
+  background-image: url("./assets/landscape-2ee9445b.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+}
+
+.bg-img-eclipse {
+  background-image: url("./assets/eclipse-11d9479c.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100dvh;
+}
