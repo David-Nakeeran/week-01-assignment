@@ -43,9 +43,7 @@ nav {
 /* Typography */
 h1,
 h2,
-a,
-button {
-  text-transform: uppercase;
+a {
   color: #ffffff;
 }
 
@@ -109,11 +107,23 @@ img {
   font-weight: bold;
   width: 17rem;
   cursor: pointer;
+  color: #ffffff;
+  text-transform: uppercase;
 }
 
-.read-more:hover {
+.read-more,
+.audio-btn:hover {
   background-color: #ffffff;
   color: #000000;
+}
+
+.audio-btn {
+  background: none;
+  opacity: 100%;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 5rem;
+  border-radius: 3px;
 }
 
 /* footer */
