@@ -31,6 +31,14 @@ nav {
   gap: 3em;
 }
 
+.nav-links {
+  text-decoration: none;
+}
+
+.nav-links:hover {
+  text-decoration: underline;
+}
+
 /* Typography */
 h1,
 h2,
