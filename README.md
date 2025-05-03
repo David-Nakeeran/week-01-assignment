@@ -1,6 +1,7 @@
 ## Week-01-Assignment
 
 Splash page built using HTML, CSS and JavaScript.
+Audio will autoplay, but if browser has autoplay disabled, you will have to click play audio button instead.
 
 ## Live Demo
 
