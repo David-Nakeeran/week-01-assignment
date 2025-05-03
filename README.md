@@ -8,13 +8,14 @@ Splash page built using HTML, CSS and JavaScript.
 
 ## Overview
 
+- Created a website to look similar to: [SpaceY website](https://spacey-kappa.vercel.app/)
 - Achieved all requirements and all stretch goals
 
 ## Technologies Used
 
 - HTML
 - CSS
-- JavaScript (coming soon)
+- JavaScript
 
 ## References
 
@@ -23,4 +24,5 @@ Splash page built using HTML, CSS and JavaScript.
 
 ## Future Improvements
 
-- Coming soon!
+- Accessibility
+- Fully responsive
